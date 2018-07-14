@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visualization Dashboard</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Optional Theme -->
+  <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+
+  <!-- This is my css file -->
+  <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" id="brand" href="landingpage.html">Latitude</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="viz1_maxtemp.html">Max Temperature</a>
+              </li>
+              <li>
+                <a href="viz2_humidity.html">Humidity</a>
+              </li>
+              <li>
+                <a href="viz3_cloudiness.html">Cloudiness</a>
+              </li>
+              <li>
+                <a href="viz4_windspeed.html">Wind Speed</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="comparison.html">Comparison</a>
+          </li>
+          <li>
+            <a href="datapage.html">Data</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ./navigation -->
+
+  <!-- main content -->
+
+  <section class="main">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-8">
+          <div id="descriptive-content--landingpage">
+            <h2>Summary: Latitude vs. X</h2>
+            <hr>
+            <img src="../projectfiles/output_data/Fig1.png" alt="">
+            <p>The purpose of this project was to analyze how weather changes as you get 
+              closer to the equator.  To accomplish this analysis, we pulled data and 
+              then used Matplotlib to plot various aspects of the weather.
+            </p>
+            <br>
+            <p>Then we went about actually uploading the data to 
+              the web...
+            </p>
+            <br>
+            <p>And I think it looks pretty great!</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div id="imagenav-content--landingpage">
+              <h3>Visualizations</h3>
+              <hr>
+
+              <a href="viz1_maxtemp.html">
+                <img src="../projectfiles/output_data/Fig1.png" alt="Figure1">
+              </a>
+
+              <a href="viz2_humidity.html">
+                <img src="../projectfiles/output_data/Fig2.png" alt="Figure2">
+              </a>
+
+              <a href="viz3_cloudiness.html">
+                <img src="../projectfiles/output_data/Fig3.png" alt="Figure3">
+              </a>
+
+              <a href="viz4_windspeed.html">
+                <img src="../projectfiles/output_data/Fig4.png" alt="Figure4">
+              </a>
+  
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+  <!-- ./main content -->
+
+
+  <!-- footer content -->
+  <footer id="main-footer">
+    <p>Nick Hebert 2018</p>
+  </footer>
+  <!-- ./footer content -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified Javascript -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

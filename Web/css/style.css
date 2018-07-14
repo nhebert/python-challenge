@@ -1,0 +1,149 @@
+
+
+body{
+    font-family: 'Antic', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+h2,h3{
+    font-weight: bold;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+/* navigation area */
+#brand{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
+
+/* landingpage mainarea*/
+#descriptive-content--landingpage{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#descriptive-content--landingpage img{
+    float:left;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+/* landingpage sidebar */
+#imagenav-content--landingpage{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    overflow:auto;
+}
+
+#imagenav-content--landingpage img{
+    float:left;
+    width: 50%;
+    
+}
+
+/* vizpages mainarea*/
+#descriptive-content--vizpage{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#descriptive-content--vizpage img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* vizpage sidebar */
+#imagenav-content--vizpage{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    overflow:auto;
+}
+
+#imagenav-content--vizpage img{
+    float:left;
+    width: 50%;   
+}
+
+/* comparisonpagee */
+#imagenav-content--comparisonpage{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    overflow:auto;
+}
+
+#imagenav-content--comparisonpage img{
+    float:left;
+    width: 50%;
+    height: 250px;   
+}
+
+
+
+/* footer */
+#main-footer{
+    border-top: 3px blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#main-footer p{
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+
+/* data page */
+.table-layout{
+    padding: 10px 10px;
+    height:500px; 
+    overflow: auto;
+}
+
+
+/* media queries */
+
+/* comparison page */
+@media screen and (max-width: 699px)
+{
+    #imagenav-content--comparisonpage img{
+        width: 100%;
+        height: 250px;   
+    }
+
+}
+
+/* landingpage sidebar */
+@media screen and (max-width: 699px)
+{
+    #imagenav-content--landingpage img{
+        width: 25%;
+    }
+
+}
+
+/* vizpage sidebar */
+@media screen and (max-width: 699px)
+{
+    #imagenav-content--vizpage img{
+        width: 100%;
+    }
+
+}
