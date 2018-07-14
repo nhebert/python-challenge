@@ -10,13 +10,13 @@
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href=".Web/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Optional Theme -->
-  <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href=".Web/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
   <!-- This is my css file -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href=".Web/css/style.css">
 
 
 </head>
@@ -47,25 +47,25 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="viz1_maxtemp.html">Max Temperature</a>
+                <a href=".Web/pages/viz1_maxtemp.html">Max Temperature</a>
               </li>
               <li>
-                <a href="viz2_humidity.html">Humidity</a>
+                <a href=".Web/pages/viz2_humidity.html">Humidity</a>
               </li>
               <li>
-                <a href="viz3_cloudiness.html">Cloudiness</a>
+                <a href=".Web/pages/viz3_cloudiness.html">Cloudiness</a>
               </li>
               <li>
-                <a href="viz4_windspeed.html">Wind Speed</a>
+                <a href=".Web/pages/viz4_windspeed.html">Wind Speed</a>
               </li>
             </ul>
           </li>
 
           <li>
-            <a href="comparison.html">Comparison</a>
+            <a href=".Web/pages/comparison.html">Comparison</a>
           </li>
           <li>
-            <a href="datapage.html">Data</a>
+            <a href=".Web/pages/datapage.html">Data</a>
           </li>
 
         </ul>
@@ -81,4 +81,69 @@
       <div class="row">
 
 
-        +<a href="./Web/pages/landingpage.html">CLICK ME<a>
+        <div class="col-md-8">
+          <div id="descriptive-content--landingpage">
+            <h2>Summary: Latitude vs. X</h2>
+            <hr>
+            <img src=".Web/projectfiles/output_data/Fig1.png" alt="">
+            <p>The purpose of this project was to analyze how weather changes as you get 
+              closer to the equator.  To accomplish this analysis, we pulled data and 
+              then used Matplotlib to plot various aspects of the weather.
+            </p>
+            <br>
+            <p>Then we went about actually uploading the data to 
+              the web...
+            </p>
+            <br>
+            <p>And I think it looks pretty great!</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div id="imagenav-content--landingpage">
+              <h3>Visualizations</h3>
+              <hr>
+
+              <a href=".Web/pages/viz1_maxtemp.html">
+                <img src=".Web/projectfiles/output_data/Fig1.png" alt="Figure1">
+              </a>
+
+              <a href=".Web/pages/viz2_humidity.html">
+                <img src=".Web/projectfiles/output_data/Fig2.png" alt="Figure2">
+              </a>
+
+              <a href=".Web/pages/viz3_cloudiness.html">
+                <img src=".Web/projectfiles/output_data/Fig3.png" alt="Figure3">
+              </a>
+
+              <a href=".Web/pages/viz4_windspeed.html">
+                <img src=".Web/projectfiles/output_data/Fig4.png" alt="Figure4">
+              </a>
+  
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+  <!-- ./main content -->
+
+
+  <!-- footer content -->
+  <footer id="main-footer">
+    <p>Nick Hebert 2018</p>
+  </footer>
+  <!-- ./footer content -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified Javascript -->
+  <script src=".Web/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
